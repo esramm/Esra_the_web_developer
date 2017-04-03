@@ -1,0 +1,115 @@
+/* --- CSS Reset ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+/* Logo */
+
+.logo.col-2_sm-12 {
+  min-height: 10px;
+  max-height: 30px;
+}
+
+/* --- General Styles ---*/
+
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4 {
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 45px;
+  font-size: 40px;
+}
+
+h4 {
+  font-style: italic;
+}
+
+body {
+  font-family: "sanchez", sans-serif;
+}
+
+.my-skills {
+  background-color: #fbdaec;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Grid */
+
+.grid, .col-4 {
+  padding: 20px 30px 40px 50px;
+}
+
+
+/* --- Header ---*/
+
+header nav.col-6_sm-12 {
+  text-align: right;
+  padding: 5%;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+
+.canberra-australia {
+  margin: 5vh 30vw;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+}
+
+/* Home page */
+.top-banner {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/40/62/69/406269bf1d61e4177fb48b8be565f4f0.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.top-banner-content {
+text-align: center;
+margin: 17vh auto 5vh;
+color: white;
+background-color: rgba(255, 0, 85, 0.66);
+padding: 2vh 2vw;
+border-radius: 10px;
+width: 20em;
+}
+
+h1 .myself {
+  font-size: 3rem;
+}
+/* About section */
+.about-section {
+  background-color: #8500c3;
+  min-height: 70vh;
+}
+
+.about-section-content {
+  text-align: center;
+  background-color: white;
+  margin: 15% 20%;
+  padding: 2%;
+  border-radius: 25px;
+}
+
+/* Map */
+.map-section {
+
+}
+
+/* --- Footer ---*/
