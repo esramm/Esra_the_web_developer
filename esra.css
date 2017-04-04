@@ -8,9 +8,9 @@
 
 /* Logo */
 
-.logo.col-2_sm-12 {
+.logo {
   min-height: 10px;
-  max-height: 30px;
+  max-height: 20px;
 }
 
 /* --- General Styles ---*/
@@ -23,9 +23,9 @@ h1, h2, h3, h4 {
 }
 
 h2 {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 45px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 h4 {
@@ -96,7 +96,8 @@ h1 .myself {
 /* About section */
 .about-section {
   background-color: #8500c3;
-  min-height: 70vh;
+  min-height: 60vh;
+
 }
 
 .about-section-content {
@@ -107,9 +108,30 @@ h1 .myself {
   border-radius: 25px;
 }
 
+
+.exp {
+   
+}
 /* Map */
 .map-section {
 
 }
 
 /* --- Footer ---*/
+
+footer {
+background-color: #8500c3;
+color: white;
+text-align: center;
+height: 60vh;
+}
+
+footer a {
+  font-size: 30px;
+  color: white;
+  padding: 30px;
+}
+
+.mail {
+  padding-bottom: 70px;
+}
